@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>Gasy dev</title>
 
 	<style type="text/css">
 
@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	::-moz-selection { background-color: #E13300; color: white; }
 
 	body {
-		background-color: #fff;
+		background-color: #000;
 		margin: 40px;
 		font: 13px/20px normal Helvetica, Arial, sans-serif;
 		color: #4F5155;
@@ -67,22 +67,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+<div id="container" align="center">
+	<h1>Tongasoa eto amin'ny Gasy Dev!</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+		<p>Tongasoa eto amin'ny pejin'ny Gasy Dev.</p>
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
+		<p>Izahay dia Malagasy tia manao "developpement"!</p>
 
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
+		<p>Ity pejy ity dia natokanay hanaovana fanazarana amin'izany codeIgniter izany</p>
 
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+		<p>Raha itady anay dia alaivo tsidio ireto fifandraisana ireto <a href="https://github.com/horaciokoko/">Koko</a>
+			<a href="https://github.com/jayzman/">Soja</a>.</p>
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<p class="footer">Misaotra Mialoha,Koko sy Soja</p>
 </div>
 
 </body>
