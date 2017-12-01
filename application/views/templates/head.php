@@ -68,6 +68,7 @@
             <div class="subnavbar-inner" id="header">
                 <div class="container">
                     <ul class="mainnav">
+                        <li id="menu_home"> <a href='<?php echo site_url("/")?>'><span>Welcome page</span> </a></li>
                         <li id="menu_home"> <a href='<?php echo site_url("main/")?>'><span>Clients</span> </a></li>
                         <li id="menu_article"> <a href='<?php echo site_url("main/produit")?>'><span>Produits</span> </a> </a>                           
                         </li>

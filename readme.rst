@@ -1,4 +1,8 @@
 ###################
+Screenshot
+###################
+![Alt text](/../master/assets/img/welcome.png?raw=true "Welcome page")
+###################
 What is CodeIgniter
 ###################
 
