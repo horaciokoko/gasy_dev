@@ -1,7 +1,7 @@
 ###################
 Screenshot
 ###################
-![Alt text](/../master/assets/img/welcome.png?raw=true "Welcome page")
+![Welcome](https://github.com/horaciokoko/gasy_dev/master/assets/img/welcome.png)
 ###################
 What is CodeIgniter
 ###################
