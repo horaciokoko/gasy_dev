@@ -35,28 +35,9 @@
             <div class="navbar-inner">
                 <div class="container"><a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span
                             class="icon-bar"></span> <span class="icon-bar"></span> </a> 
-                    <a class="brand" href="" target="_blank"> Geranium</a>
+                    <a class="brand" href="" target="_blank"> Sample CI CRUD</a>
                     <div class="nav-collapse">
-                        <ul class="nav pull-right">                           
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-cog"></i> Options <b
-                                        class="caret"></b> </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="">Routage</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="javascript:;">Aide</a></li>
-                                </ul>
-                            </li> 
-                          
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> 
-                                      #{sessionScope.username} <b class="caret"></b> </a>
-                                    <ul class="dropdown-menu">
-    <!--                                    <li><a href=""></a></li>-->
-                                        <li class="divider"></li>
-                                        <li><h:form><h:commandLink action="#{userBean.logout()}" value="Se déconnecter"></h:commandLink> </h:form></li>
-                                    </ul>
-                                </li>
-                           
-                        </ul>                     
+                                           
                         <form class="navbar-search pull-right" id="form-search" action="#"
                               name="form-search"><input type="hidden" id="controller" value="" /> <input type="hidden" id="param" value="" /> <input type="text" class="search-query" placeholder="Search" name="s" id="s" />
                             <button>OK</button>
@@ -94,21 +75,7 @@
                         </li> 
                         <li  id="menu_user"> <a href='<?php echo site_url("main/vente")?>'><span>Vente</span> </a> </a>                           
                         </li>
-                        <li class="dropdown" id="menu_sim"> 
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="icon-money"></i><span>Mouvements</span> <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="facture.xhtml">Facture</a></li>
-                                <li class="divider"></li>
-                                <li><a href="chiffresaffaire.xhtml">Chiffres d'affaire</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown" id="menu_sms"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-th-large"></i><span>Base de données</span> <b class="caret"></b></a>                      
-                         <ul class="dropdown-menu">                                
-                                <li class="divider"></li>
-                                <li><a href="backrestore.xhtml">Sauvegarder/Restaurer</a></li>
-                            </ul>
-                        </li>                                                                                     
+                                                                                                      
                     </ul>
                 </div> 
             </div>  

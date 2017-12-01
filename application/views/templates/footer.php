@@ -11,7 +11,7 @@ $(document).ready(function() {
       <script src="<?php echo base_url(); ?>assets/js/lib/localscroll/jquery.localscroll.js"></script>
       <script src="<?php echo base_url(); ?>assets/js/assets/js/bootstrap.js"></script>
       <script src="<?php echo base_url(); ?>assets/js/lib/ui/js/jquery-ui-1.10.0.custom.min.js"></script>    
-
+<p class="footer">Misaotra Mialoha,Koko sy Soja</p>
 </body>
 
 </html>
