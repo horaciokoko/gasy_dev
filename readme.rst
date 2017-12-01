@@ -1,7 +1,10 @@
 ###################
 Screenshot
 ###################
-![Welcome](https://github.com/horaciokoko/gasy_dev/blob/master/assets/img/welcome.png)
+<p align="center">
+  <img src="https://github.com/horaciokoko/gasy_dev/blob/master/assets/img/welcome.png" width="350"/>
+</p>
+
 ###################
 What is CodeIgniter
 ###################
